@@ -2,6 +2,8 @@
 
 这是一个滑动切换的 tab 选项卡，他支持 vue/vue-jsx。
 
+`npm i vue-tabs-swiper`
+
 ```javascript
 <vue-tabs-swiper>
     <hot-spot tab-label="热点" />
@@ -10,7 +12,12 @@
 </vue-tabs-swiper>
 ```
 
-## vue-tabs-swiper 参数配置
+##API
+
+表头  | 表头  | 表头
+---- | ----- | ------ 
+单元格内容  | 单元格内容 | 单元格内容
+单元格内容  | 单元格内容 | 单元格内容
 
 1、tab-color\<br>
 2、tab-active-color\<br>
