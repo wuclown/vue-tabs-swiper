@@ -9,8 +9,7 @@
   <div tab-label="热点">热点</div>
   <div tab-label="发现">发现</div>
   <div tab-label="关注">关注</div>
-  //
-  <My tab-label="我的" />
+  // <My tab-label="我的" />
 </vue-tabs-swiper>
 ```
 
