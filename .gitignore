@@ -1,2 +1,4 @@
 node_modules
 component
+.prettierrc
+main.js
