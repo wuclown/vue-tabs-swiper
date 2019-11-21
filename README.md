@@ -13,6 +13,9 @@
 </vue-tabs-swiper>
 ```
 
+### 演示
+<img src="https://github.com/clown-wyj/vue-tabs-swiper/blob/develop/1.jpg" controls="controls" width="300px" />
+
 ### API
 
 | 参数               | 说明                         | 类型            | 默认值              | 版本 |
