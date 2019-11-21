@@ -1,6 +1,6 @@
 # vue-tabs-swiper
 
-这是一个滑动切换的 tab 选项卡，他支持 vue/vue-jsx。
+这是一个基于hammerjs滑动切换的 tab 选项卡，他支持 vue/vue-jsx。
 
 `npm i vue-tabs-swiper`
 
@@ -12,20 +12,25 @@
 </vue-tabs-swiper>
 ```
 
-##API
+### API
 
-表头  | 表头  | 表头
----- | ----- | ------ 
-单元格内容  | 单元格内容 | 单元格内容
-单元格内容  | 单元格内容 | 单元格内容
+参数  | 说明  | 类型  |   默认值  |   版本  
+---- | ----- | ----- | ----- | -----
+v-model  | 绑定当前选中标签的下标 | Number | 0 | -
+tab-color  | tab 文字颜色 | String | #484848  | -
+tab-active-color  | tab 文字选中颜色 | String | #31aaff  | -
+tab-font-weight  | tab 字体加粗 | String, Number | -  | -
+tab-font-size  | tab 字体大小 | Number | -  | -
+tab-slider-width  | tab 选中下标记宽度 | Number | 20 | -
+tab-slider-height  | tab 选中下标记高度 | Number | - | -
+border-bottom | 是否显示header下边线 | Boolean | false | -
+touch-animation  | tab 触摸动画 | Boolean | true | -
+animation-time  | 选项卡切换滑动动画过渡时间 | Number | 400 | -
+threshold | 选项卡切换滑动滑动切换的阈值 | Number | 50 | -
+un-tab-group-wiath | 当选项卡head无法获取宽度| Number | window.innerWidth | -
+un-tabs-wiath | 当选项卡无法获取宽度 | Number | window.innerWidth | -
+change | 选项卡 change 事件 | Function(index) | - | -
+click | 选项卡 tab click 事件 | Function(index) | - | -
+refresh | 重新计算/渲染选项卡 | Methods | $refs.xx.refresh() | -
 
-1、tab-color\<br>
-2、tab-active-color\<br>
-3、tab-font-weight\<br>
-4、tab-font-size\<br>
-
-### V1.1.4 版本
-
-1.解决当无法获取 tabs 宽度时，备用 porps
-unknownTabGroupWiath
-unknowntabsWiath
+> 说明：un-tab-group-wiath和un-tabs-wiath参数，是选项卡无法获取元素宽度，因此可手动设置宽度。
