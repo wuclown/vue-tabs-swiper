@@ -12,6 +12,9 @@
   // <My tab-label="我的" />
 </vue-tabs-swiper>
 ```
+### 演示
+<img src="https://github.com/clown-wyj/vue-tabs-swiper/blob/develop/1.jpg" controls="controls" width="300px" />
+
 
 ### API
 
