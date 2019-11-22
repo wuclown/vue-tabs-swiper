@@ -1,19 +1,20 @@
 # vue-tabs-swiper
 
-这是一个基于 hammerjs 滑动切换的 tab 选项卡，他支持 vue/vue-jsx。
+这是一个基于 hammerjs 滑动切换的 tab 选项卡，支持 vue/vue-jsx。
 
 `npm i vue-tabs-swiper -s`
 
 ```javascript
 <vue-tabs-swiper>
-  <div tab-label="热点">热点</div>
-  <div tab-label="发现">发现</div>
-  <div tab-label="关注">关注</div>
-  // <My tab-label="我的" />
+    <div tab-label="热点">热点</div>
+    <div tab-label="发现">发现</div>
+    <div tab-label="关注">关注</div>
+    // <My tab-label="我的" />
 </vue-tabs-swiper>
 ```
 
 ### 演示
+
 <img src="https://github.com/clown-wyj/vue-tabs-swiper/blob/develop/1.jpg" controls="controls" width="300px" />
 
 ### API

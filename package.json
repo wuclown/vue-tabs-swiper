@@ -1,7 +1,7 @@
 {
     "name": "vue-tabs-swiper",
-    "version": "1.1.4",
-    "description": "tabs 滑动选项卡",
+    "version": "1.1.6",
+    "description": "vue tabs 滑动选项卡",
     "main": "component/index.js",
     "private": false,
     "scripts": {
