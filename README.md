@@ -4,7 +4,8 @@
 
 `npm i vue-tabs-swiper -s`
 
-```javascript
+```
+import VueTabsSwipe from "vue-tabs-swipe"
 <vue-tabs-swiper>
     <div tab-label="热点">热点</div>
     <div tab-label="发现">发现</div>
