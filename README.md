@@ -1,6 +1,7 @@
 # vue-tabs-swiper
 
-这是一个基于 hammerjs vue滑动切换的 tab 选项卡。
+这是一个基于 hammerjs vue滑动切换的 tab 选项卡。  
+
 `npm i vue-tabs-swiper -s`
 
 ```
